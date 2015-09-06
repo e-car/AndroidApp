@@ -1,0 +1,183 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MySimpleClientActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ipAddress" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FOR DEBUG"
+            android:id="@+id/debugView" />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="Connect"
+            android:textOn="disConnect"
+
+            android:id="@+id/tglbtnConnect"
+            android:textSize="30dp"
+            android:typeface="monospace"
+            android:checked="false" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/etxtServerIP"
+                android:layout_gravity="center_horizontal"
+                android:text="192.168.8.104"
+                android:hint="IP Address"
+                android:selectAllOnFocus="true"/>
+                <requestFocus />
+
+            <Space android:layout_width="25dip"
+                android:layout_height="wrap_content"/>
+
+            <!-- 2 port-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etxtServerPort"
+                android:text="5555"
+                android:hint="Port"
+                android:ems="1"
+                android:selectAllOnFocus="true"/>
+
+        </LinearLayout>
+        <!-- 1 address-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!-- 3 sendData-->
+            <EditText
+                android:id="@+id/etxtSendStr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="sendData"
+                android:ems="10" />
+
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="SEND" />
+        </LinearLayout>
+
+<!--以下情報表示画面        -->
+
+        <!--電圧表示-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="96V電圧:"
+                android:textSize="24dp"
+                android:ems="6"
+                android:gravity="right"
+                android:id="@+id/tvvoltage" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="未取得"
+                android:textSize="30dp"
+                android:id="@+id/voltage" />
+
+        </LinearLayout>
+
+        <!--電流表示-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="96V電流:"
+                android:textSize="24dp"
+                android:ems="6"
+                android:gravity="right"
+                android:id="@+id/tvampere" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="未取得"
+                android:textSize="30dp"
+                android:id="@+id/ampere" />
+
+        </LinearLayout>
+
+        <!--温度表示-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="モーター温度:"
+                android:gravity="right"
+                android:textSize="24dp"
+                android:ems="6"
+                android:id="@+id/tvtemperature" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="未取得"
+                android:textSize="30dp"
+                android:id="@+id/temperature" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Controler温度:"
+                android:gravity="right"
+                android:textSize="24dp"
+                android:ems="6"
+                android:id="@+id/tvtemperature2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="未取得"
+                android:textSize="30dp"
+                android:id="@+id/temperature2" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

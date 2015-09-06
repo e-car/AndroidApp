@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Users\miyao\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="D:\Users\miyao\AndroidStudioProjects\e-car_SocketClientApplication0.9.2\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-346348621879aeefb6a521c69a54b24be602a8bc.jar" />
+    </item>
+    <item
+        jar="D:\Users\miyao\AndroidStudioProjects\e-car_SocketClientApplication0.9.2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="D:\Users\miyao\AndroidStudioProjects\e-car_SocketClientApplication0.9.2\app\build\intermediates\pre-dexed\debug\classes-9d184809562fa5cc7980542ffe3aec13598cd407.jar" />
+    </item>
+    <item
+        jar="D:\Users\miyao\AndroidStudioProjects\e-car_SocketClientApplication0.9.2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="D:\Users\miyao\AndroidStudioProjects\e-car_SocketClientApplication0.9.2\app\build\intermediates\pre-dexed\debug\classes-ab795fec8570b06a3c69d39966f8ffdcbe7826a4.jar" />
+    </item>
+    <item
+        jar="D:\Users\miyao\AndroidStudioProjects\e-car_SocketClientApplication0.9.2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="D:\Users\miyao\AndroidStudioProjects\e-car_SocketClientApplication0.9.2\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-9ddbb2dda68b537d31ba2fd71fef16e3122d22d8.jar" />
+    </item>
+
+</items>
